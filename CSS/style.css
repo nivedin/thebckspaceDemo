@@ -933,7 +933,7 @@ footer .footerContainer .footRights {
   }
   main .copDropBtns .copDropContainer {
     margin: 80px auto;
-    width: 76%;
+    width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -951,6 +951,12 @@ footer .footerContainer .footRights {
     height: 45px;
     width: 170px;
     font-weight: 500;
+  }
+  main .copDropBtns .copDropContainer button span {
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 27%;
   }
   main .popularBrand {
     min-height: 45vh;

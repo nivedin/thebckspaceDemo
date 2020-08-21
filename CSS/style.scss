@@ -894,7 +894,7 @@ footer {
 
             .copDropContainer {
                 margin: 80px auto;
-                width: 76%;
+                width: 80%;
                 display: flex;
                 justify-content: space-between;
 
@@ -908,6 +908,14 @@ footer {
                     height: 45px;
                     width: 170px;
                     font-weight: 500;
+
+                    span {
+                        position: absolute;
+                        z-index: 2;
+                        top: 25%;
+                        left: 27%;
+
+                    }
                 }
 
             }
